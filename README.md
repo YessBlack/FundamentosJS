@@ -18,6 +18,14 @@ node Talleres/Taller1/pedido.js
 node Talleres/Ejercicios/ejercicio1.js
 ```
 
+Para el taller de calculadora (usa la dependencia `prompt-sync`):
+
+```bash
+cd Talleres/Calculadora
+npm install
+node calculadora.js
+```
+
 ---
 
 ## Estructura del repositorio
@@ -29,6 +37,7 @@ GEN_C13_FundamentosJS/
 ├── 3Funciones/            # Declaración, parámetros y return
 └── Talleres/
     ├── Taller1/           # Proyecto integrador (simulación de pedido Rappi)
+    ├── Calculadora/       # Calculadora interactiva por consola
     └── Ejercicios/        # Ejercicios de práctica (FizzBuzz, tablas, ventas…)
 ```
 
@@ -95,6 +104,7 @@ Los **talleres** integran varios temas en un escenario práctico. El objetivo es
 | Taller | Descripción | Archivo |
 |--------|-------------|---------|
 | **Taller 1 — Pedido Rappi** | Simulación de un pedido de delivery: datos del cliente, carrito de productos (`push` / `pop`), ficha del pedido como objeto, actualización de estado y resumen de cobro (subtotal, domicilio, propina y total). Incluye una nota sobre coerción de tipos al sumar strings con números. | `Talleres/Taller1/pedido.js` |
+| **Taller — Calculadora** | Calculadora interactiva en consola con menú (`while`), entrada del usuario con `prompt-sync`, validación de opciones y números, y operaciones básicas: suma, resta, multiplicación y división. | `Talleres/Calculadora/calculadora.js` |
 
 ---
 
